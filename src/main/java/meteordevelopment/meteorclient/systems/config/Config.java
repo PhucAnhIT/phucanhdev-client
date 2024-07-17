@@ -57,7 +57,7 @@ public class Config extends System<Config> {
 
     public final Setting<Boolean> titleScreenCredits = sgVisual.add(new BoolSetting.Builder()
         .name("title-screen-credits")
-        .description("Show Meteor credits on title screen")
+        .description("Show PhucAnhDeveloper-Client credits on title screen")
         .defaultValue(true)
         .build()
     );
